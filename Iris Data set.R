@@ -16,3 +16,10 @@ iris[1:5, ]
 
 #Get Sepal.Length of the first 10 rows
 iris[1:10, "Sepal.Length"]
+
+# or alternatively
+iris$Sepal.Length[1:10]
+
+# or we can use the column index instead of variable names. Since Sepal.Length is the first
+#column:
+iris[1:10, 1]
