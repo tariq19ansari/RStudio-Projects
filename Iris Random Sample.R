@@ -21,3 +21,7 @@ plot(density(iris_sample_dataset$Sepal.Length))
 ## Scatter plot of length and width of sepals
 plot(iris_sample_dataset$Sepal.Length, iris_sample_dataset$Sepal.Width)
 
+## Parallel Coordinates
+library(MASS)
+parcoord(iris_sample_dataset[, 1:4], col = iris_sample_dataset$Species)
+
