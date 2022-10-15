@@ -12,16 +12,43 @@ table(iris_sample_dataset$Species)
 ## Pie Chart
 pie(table(iris_sample_dataset$Species))
 
+############### "Sepal.Length" #########
+
 ##Plot histogram and density plot of Sepal.length
 hist(iris_sample_dataset$Sepal.Length)
 
 plot(density(iris_sample_dataset$Sepal.Length))
 
 
-## Scatter plot of length and width of sepals
-plot(iris_sample_dataset$Sepal.Length, iris_sample_dataset$Sepal.Width)
 
 ## Parallel Coordinates
 library(MASS)
 parcoord(iris_sample_dataset[, 1:4], col = iris_sample_dataset$Species)
 
+############### "Sepal.Width" #########
+##Plot histogram and density plot of Sepal.Width
+hist(iris_sample_dataset$Sepal.Width)
+
+plot(density(iris_sample_dataset$Sepal.Width))
+
+names(iris_sample_dataset)
+
+############## "Petal.Length" ##########
+
+hist(iris_sample_dataset$Petal.Length)
+
+plot(density(iris_sample_dataset$Petal.Length))
+
+############## "Petal.Width" ##########
+
+hist(iris_sample_dataset$Petal.Width)
+
+plot(density(iris_sample_dataset$Petal.Width))
+
+
+######### Scatter plot of length and width of SEPALS ##########
+plot(iris_sample_dataset$Sepal.Length, iris_sample_dataset$Sepal.Width)
+
+
+######### Scatter plot of length and width of PETALS #########
+plot(iris_sample_dataset$Petal.Length, iris_sample_dataset$Petal.Width)
