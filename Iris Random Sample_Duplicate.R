@@ -52,7 +52,3 @@ plot(iris_sample_dataset$Sepal.Length, iris_sample_dataset$Sepal.Width)
 
 ######### Scatter plot of length and width of PETALS #########
 plot(iris_sample_dataset$Petal.Length, iris_sample_dataset$Petal.Width)
-
-
-######### Scatter plot of SEPALS length and PETALS width ##########
-plot(iris_sample_dataset$Sepal.Length, iris_sample_dataset$Petal.Width)
