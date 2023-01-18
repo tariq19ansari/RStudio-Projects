@@ -1,1 +1,1 @@
-# RStudio-Projects
+# RStudio-Telecom Customer Churn Project
